@@ -6,11 +6,9 @@
   background-color: white;
 }
 
-.login__logo{
+.login .logo{
   margin-top: 20px;
   margin-bottom: 20px;
-  object-fit: contain;
-  width: 100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -39,6 +37,8 @@
   margin-bottom: 10px;
   background-color: white;
   width: 98%;
+  border: 1px solid gray;
+  padding: 5px;
 }
 
 .login__container > p{
@@ -57,6 +57,14 @@
   cursor: pointer;
 }
 
+.login__signInButton:hover {
+  background: #e2af2f;
+}
+
+.login__signInButton:active {
+  background: #e2af2f;
+}
+
 .login__registerButton{
   border-radius: 2px;
   width: 100%;
@@ -64,4 +72,28 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: darkgray;
+  cursor: pointer;
+}
+
+.login__registerButton:hover {
+  background-color: gainsboro;
+}
+
+.divider {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.divider span {
+  color: gray;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  top: 9px;
+}
+
+.divider hr {
+  border: 1px solid gainsboro;
+
 }

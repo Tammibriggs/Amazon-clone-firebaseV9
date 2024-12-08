@@ -68,7 +68,6 @@
   .home__row > div:nth-child(6) {
     grid-column: span 3;
   }
-
 }
 
 @media(max-width: 600px){
